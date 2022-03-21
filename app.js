@@ -1,6 +1,6 @@
 function capitalizeWord(word) {
-    word[0].toUpperCase();
-    return word;
+    myWord = word[0].toUpperCase() + word.slice(1);
+    return myWord;
 }
 
 console.log(capitalizeWord('word')); // 'Word'
